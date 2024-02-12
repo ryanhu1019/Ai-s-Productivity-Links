@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Free Resources</title>
     <style>
@@ -20,7 +20,11 @@
         }
         /* Equal column widths */
         th, td {
-            width: 50%; /* Set the width to 50% for both columns */
+            width: auto;
+        }
+        /* Adjust width of the first column */
+        th:first-child, td:first-child {
+            width: 20%;
         }
     </style>
 </head>
